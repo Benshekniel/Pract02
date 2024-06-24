@@ -7,9 +7,9 @@ object Main {
     var c = 'X'
 
     val expr1 = k + 12 * m
-    val expr2 = m / j
+    val expr2 = m.toFloat / j
     val expr3 = n % j
-    val expr4 = m / j * j
+    val expr4 = m.toFloat / j * j
     val expr5 = f + 10 * 5 + g
     i += 1
     val expr6 = i * n
